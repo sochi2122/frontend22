@@ -6,8 +6,9 @@ import Show from "../pages/Show"
 function Main(props) {
   const [people, setPeople] = useState(null)
 
-  const URL = "https://zen-sinoussi-eb20dd.netlify.app/"
-
+  //const URL = "http://localhost:3000"
+  const URL = "https://zen-sinoussi-eb20dd.netlify.app/people"
+  
   const getPeople = async () => {
     const response = await fetch(URL)
     const data = await response.json()
