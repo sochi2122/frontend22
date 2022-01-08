@@ -6,8 +6,8 @@ import Show from "../pages/Show"
 function Main(props) {
   const [people, setPeople] = useState(null)
 
-  const URL = "mongodb+srv://admin:abc1234@cluster0.vn7x6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-  
+  const URL = "https://zen-sinoussi-eb20dd.netlify.app/"
+
   const getPeople = async () => {
     const response = await fetch(URL)
     const data = await response.json()
