@@ -10,8 +10,8 @@ function Main(props) {
 
   //const URL = "https://zen-sinoussi-eb20dd.netlify.app/people/"
 	
-  const URL ="https://frontendpeoplelabs.netlify.app/people/"
-  
+const URL = "https://expressreactapi212112.herokuapp.com/people/"
+
   const getPeople = async () => {
     const response = await fetch(URL)
     const data = await response.json()
